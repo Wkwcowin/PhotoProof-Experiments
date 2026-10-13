@@ -1,0 +1,29 @@
+{
+  "input_file_sha256": "1e9049cc2bae527d1b4b990e4312e0a0189eb2547162924fa8cf64aed2f94f58",
+  "results": [
+    {
+      "name": "original",
+      "width": 1440,
+      "height": 810,
+      "encoded_image_sha256": "1823bd008a299d152d8e22b80e71ebcdc54c593093b60edf065f7b48981049c4",
+      "original_signature_accepted": true,
+      "original_proof_accepted": true
+    },
+    {
+      "name": "cropped",
+      "width": 720,
+      "height": 810,
+      "encoded_image_sha256": "1393501b7f829bf8ee83d27294607480c801bdb396d5bd9b06be4164be9a7609",
+      "original_signature_accepted": false,
+      "original_proof_accepted": true
+    },
+    {
+      "name": "marked",
+      "width": 1440,
+      "height": 810,
+      "encoded_image_sha256": "ca3cd114376e70e82dcc6ef3bc14043d5776883796939b06fed7269289f785aa",
+      "original_signature_accepted": false,
+      "original_proof_accepted": true
+    }
+  ]
+}

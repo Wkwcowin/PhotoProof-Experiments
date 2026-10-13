@@ -1,0 +1,15 @@
+=== RUN   TestRealPhotoChain
+    integration_test.go:63: valid_two_step_chain accepted=true seconds=2.298 error=<nil>
+    integration_test.go:72: valid_first_step accepted=true seconds=1.904 error=<nil>
+    integration_test.go:78: one_pixel_modified accepted=false seconds=0.016 error=received image pixels do not match proof chain
+    integration_test.go:90: red_block_added accepted=false seconds=0.016 error=received image pixels do not match proof chain
+    integration_test.go:93: earlier_crop_changed accepted=false seconds=1.367 error=step 1: source opening relation failed
+    integration_test.go:96: earlier_resize_sampling_changed accepted=false seconds=1.375 error=step 1: source opening relation failed
+    integration_test.go:99: earlier_rotation_changed accepted=false seconds=1.381 error=step 1: source opening relation failed
+    integration_test.go:105: proof_response_changed_and_hash_updated accepted=false seconds=1.421 error=step 1: source opening relation failed
+    integration_test.go:108: truncated_proof accepted=false seconds=0.031 error=step 1: proof digest mismatch
+    integration_test.go:111: final_opening_changed accepted=false seconds=0.016 error=received image pixels do not match proof chain
+    integration_test.go:113: tampered_input_rejected_before_next_edit accepted=false seconds=0.016 error=received image pixels do not match proof chain
+--- PASS: TestRealPhotoChain (10.13s)
+PASS
+ok  	photoproof/cmd/pixelproof	10.332s

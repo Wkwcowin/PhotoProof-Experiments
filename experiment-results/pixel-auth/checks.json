@@ -1,0 +1,77 @@
+[
+  {
+    "name": "valid_two_step_chain",
+    "accepted": true,
+    "expected_accept": true,
+    "seconds": 2.298112541
+  },
+  {
+    "name": "valid_first_step",
+    "accepted": true,
+    "expected_accept": true,
+    "seconds": 1.9038691669999999
+  },
+  {
+    "name": "one_pixel_modified",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 0.015521666,
+    "error": "received image pixels do not match proof chain"
+  },
+  {
+    "name": "red_block_added",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 0.015669125,
+    "error": "received image pixels do not match proof chain"
+  },
+  {
+    "name": "earlier_crop_changed",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 1.36690575,
+    "error": "step 1: source opening relation failed"
+  },
+  {
+    "name": "earlier_resize_sampling_changed",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 1.374725792,
+    "error": "step 1: source opening relation failed"
+  },
+  {
+    "name": "earlier_rotation_changed",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 1.381211166,
+    "error": "step 1: source opening relation failed"
+  },
+  {
+    "name": "proof_response_changed_and_hash_updated",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 1.421261375,
+    "error": "step 1: source opening relation failed"
+  },
+  {
+    "name": "truncated_proof",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 0.031420125,
+    "error": "step 1: proof digest mismatch"
+  },
+  {
+    "name": "final_opening_changed",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 0.015750334,
+    "error": "received image pixels do not match proof chain"
+  },
+  {
+    "name": "tampered_input_rejected_before_next_edit",
+    "accepted": false,
+    "expected_accept": false,
+    "seconds": 0.015768208,
+    "error": "received image pixels do not match proof chain"
+  }
+]

@@ -1,0 +1,7 @@
+=== RUN   TestRealPhotoOriginalVerifier
+    real_photo_test.go:136: RESULT image=original size=1440x810 original_signature=true original_proof=true
+    real_photo_test.go:136: RESULT image=cropped size=720x810 original_signature=false original_proof=true
+    real_photo_test.go:136: RESULT image=marked size=1440x810 original_signature=false original_proof=true
+--- PASS: TestRealPhotoOriginalVerifier (1.61s)
+PASS
+ok  	photoproof	1.911s

@@ -1,0 +1,64 @@
+[
+  {
+    "name": "edit-a",
+    "accepted": true,
+    "expected": true
+  },
+  {
+    "name": "edit-b",
+    "accepted": true,
+    "expected": true
+  },
+  {
+    "name": "edit-c",
+    "accepted": true,
+    "expected": true
+  },
+  {
+    "name": "one_pixel_changed",
+    "accepted": false,
+    "expected": false,
+    "error": "received image/proof mismatch: pairing doesn't match"
+  },
+  {
+    "name": "red_square_added",
+    "accepted": false,
+    "expected": false,
+    "error": "received image/proof mismatch: pairing doesn't match"
+  },
+  {
+    "name": "substituted_image",
+    "accepted": false,
+    "expected": false,
+    "error": "received image dimensions do not match transform"
+  },
+  {
+    "name": "modified_crop_coordinates",
+    "accepted": false,
+    "expected": false,
+    "error": "received image/proof mismatch: pairing doesn't match"
+  },
+  {
+    "name": "modified_rotation",
+    "accepted": false,
+    "expected": false,
+    "error": "received image/proof mismatch: pairing doesn't match"
+  },
+  {
+    "name": "tampered_prior_edit",
+    "accepted": false,
+    "expected": false,
+    "error": "previous edit is invalid: received image/proof mismatch: pairing doesn't match"
+  },
+  {
+    "name": "public_files_only",
+    "accepted": true,
+    "expected": true
+  },
+  {
+    "name": "truncated_proof",
+    "accepted": false,
+    "expected": false,
+    "error": "unexpected EOF"
+  }
+]

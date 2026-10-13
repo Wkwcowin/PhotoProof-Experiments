@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "width": 1440,
+  "height": 810,
+  "policy": {
+    "allow_crop": true,
+    "allow_nearest_neighbor_downsize": true,
+    "allow_quarter_turns": true
+  },
+  "generator_sha256": "f0f0b7141f6d7b2587c7bfa529ae7e269215c314b8fbcd966f4791c017435327",
+  "source_commitment": "p2/bDlwYbXzEaFH6T1Xl/WM8olUXg/eP55lZ1XFgWzgK52E8LmbrwjOzXE+hTVTa",
+  "signature": "6Kozf5HmDEshx8DJC6ApCH74eAXk1vM3nGmLQUnaSvJSg+A5EI8VIt/XBHzqYxgwFqUAmHBhq3W7BM2sAbQMCg=="
+}

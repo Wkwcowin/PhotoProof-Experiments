@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "certificate": {
+    "version": 1,
+    "width": 1440,
+    "height": 810,
+    "policy": {
+      "allow_crop": true,
+      "allow_nearest_neighbor_downsize": true,
+      "allow_quarter_turns": true
+    },
+    "generator_sha256": "f0f0b7141f6d7b2587c7bfa529ae7e269215c314b8fbcd966f4791c017435327",
+    "source_commitment": "p2/bDlwYbXzEaFH6T1Xl/WM8olUXg/eP55lZ1XFgWzgK52E8LmbrwjOzXE+hTVTa",
+    "signature": "6Kozf5HmDEshx8DJC6ApCH74eAXk1vM3nGmLQUnaSvJSg+A5EI8VIt/XBHzqYxgwFqUAmHBhq3W7BM2sAbQMCg=="
+  },
+  "steps": [
+    {
+      "operation": {
+        "x": 137,
+        "y": 83,
+        "crop_width": 901,
+        "crop_height": 617,
+        "resize_width": 451,
+        "resize_height": 309,
+        "quarter_turns": 1
+      },
+      "output_commitment": "kSivjd/0c4iSD3so1A4ck4CBiAdGUWgu7gVUpL72owOxrxUKrEmgYUFIIw69LrOn",
+      "proof_sha256": "c5b35cbf859ad836b9c4ff730289072597a5e42ae76fc2be336ebbd2d6f9f682"
+    }
+  ],
+  "final_image_opening": "DHLcc6/dNj68IS79DjVqBaYSecwpMtuf2DGlvhAaelw="
+}

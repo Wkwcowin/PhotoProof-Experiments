@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "policy": {
+    "source_width": 1440,
+    "source_height": 810,
+    "tile_size": 90,
+    "allow_crop": true,
+    "allow_quarter_turns": true
+  },
+  "signer_public_key": "zfKTjg3vJhD6nZFj+eC525QgxvqHMRuI5UErxA1/Swc=",
+  "verifying_key_sha256": "807e3fd99e86e4248c863b958a9b5a7c39c7b840ad58647bf791f3b2901de011"
+}

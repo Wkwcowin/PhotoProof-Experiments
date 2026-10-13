@@ -1,0 +1,13 @@
+{
+  "policy": {
+    "source_width": 1440,
+    "source_height": 810,
+    "tile_size": 90,
+    "crop_x": 360,
+    "crop_y": 0,
+    "crop_width": 720,
+    "crop_height": 810
+  },
+  "signer_public_key": "qXoKX9kiTwqBKAcVdwd4A890FRaiCvsHUYGZ+1g5M4Y=",
+  "verifying_key_sha256": "81722aaf0d51d1b45e76d2afb5fe9692a679b0be78aaba5868f7d4142e7a08b8"
+}

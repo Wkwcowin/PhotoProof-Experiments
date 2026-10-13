@@ -1,0 +1,59 @@
+{
+  "policy": {
+    "source_width": 1440,
+    "source_height": 810,
+    "tile_size": 90,
+    "crop_x": 360,
+    "crop_y": 0,
+    "crop_width": 720,
+    "crop_height": 810
+  },
+  "input_sha256": "1e9049cc2bae527d1b4b990e4312e0a0189eb2547162924fa8cf64aed2f94f58",
+  "constraints": 141813,
+  "compile_and_setup_ms": 14182.547,
+  "total_prove_ms": 1790.098,
+  "proof_bytes": 128,
+  "results": [
+    {
+      "name": "authorized_crop",
+      "accepted": true,
+      "expected": true,
+      "verify_ms": 26.976
+    },
+    {
+      "name": "one_pixel_changed",
+      "accepted": false,
+      "expected": false,
+      "verify_ms": 25.777,
+      "reason": "image/proof verification failed: pairing doesn't match"
+    },
+    {
+      "name": "red_square_added",
+      "accepted": false,
+      "expected": false,
+      "verify_ms": 25.733,
+      "reason": "image/proof verification failed: pairing doesn't match"
+    },
+    {
+      "name": "wrong_crop_region",
+      "accepted": false,
+      "expected": false,
+      "verify_ms": 23.279,
+      "reason": "image/proof verification failed: pairing doesn't match"
+    },
+    {
+      "name": "original_wrong_dimensions",
+      "accepted": false,
+      "expected": false,
+      "verify_ms": 10.115,
+      "reason": "output dimensions do not match signed crop"
+    },
+    {
+      "name": "prove_changed_pixels",
+      "accepted": false,
+      "expected": false,
+      "verify_ms": 0,
+      "reason": "constraint #135172 is not satisfied: [assertIsEqual] 102511077797315979268407732179905965695 == 208628266535588194501865368360208819741\nr1cs.(*builder).AssertIsEqual\n\tapi_assertions.go:35\ncropauth.(*Circuit).Define\n\tcropauth.go:109\n\n"
+    }
+  ]
+}

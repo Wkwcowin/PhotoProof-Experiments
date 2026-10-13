@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "certificate": {
+    "source_commitment": "B5vwTu1QdZFDt/jVt+zgy/hbZ00jexy4Z8XbJBTj+Hw=",
+    "signature": "IFsHM6W2U2JeL/crsHLAVi0r3eGcHGhHJ01oO97YmywBmBOk8riRbBfpRF1LID3WuogVPosDLI90q4iHrRTZdw=="
+  },
+  "transform": {
+    "x": 270,
+    "y": 270,
+    "width": 450,
+    "height": 360,
+    "quarter_turns": 2
+  }
+}

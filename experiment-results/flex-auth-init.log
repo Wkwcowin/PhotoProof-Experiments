@@ -1,0 +1,4 @@
+[90m13:13:59[0m [32mINF[0m compiling circuit
+[90m13:13:59[0m [32mINF[0m parsed circuit inputs [36mnbPublic=[0m306 [36mnbSecret=[0m288
+[90m13:14:00[0m [32mINF[0m building constraint builder [36mnbConstraints=[0m146232
+INITIALIZED constraints=146232 setup_ms=14569.476 sign_ms=29.467

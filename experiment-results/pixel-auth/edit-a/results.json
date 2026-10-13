@@ -1,0 +1,12 @@
+{
+  "basis_load_seconds": 0.237894791,
+  "chain_verify_seconds": 2.476953542,
+  "height": 451,
+  "new_proof_bytes": 37324968,
+  "prior_verify_seconds": 0.374672,
+  "prove_seconds": 3.074456959,
+  "steps": 1,
+  "total_proof_bytes": 37324968,
+  "total_seconds": 6.203915833,
+  "width": 309
+}

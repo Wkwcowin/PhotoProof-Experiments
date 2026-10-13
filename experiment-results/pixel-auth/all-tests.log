@@ -1,0 +1,8 @@
+ok  	photoproof	0.426s
+?   	photoproof/cmd/cropdemo	[no test files]
+ok  	photoproof/cmd/photoedit	0.669s
+ok  	photoproof/cmd/pixelproof	1.341s
+ok  	photoproof/cropauth	3.645s
+ok  	photoproof/flexauth	5.142s
+?   	photoproof/image	[no test files]
+ok  	photoproof/pixelauth	0.842s

@@ -1,0 +1,14 @@
+[90m12:21:09[0m [32mINF[0m compiling circuit
+[90m12:21:09[0m [32mINF[0m parsed circuit inputs [36mnbPublic=[0m5 [36mnbSecret=[0m1
+[90m12:21:09[0m [32mINF[0m building constraint builder [36mnbConstraints=[0m6497
+[Secure Camera] Successfully generated keys.
+[Secure Camera] Successfully signed image.
+[Verifier] Successfully verified signature.
+[90m12:21:10[0m [32mINF[0m compiling circuit
+[90m12:21:10[0m [32mINF[0m parsed circuit inputs [36mnbPublic=[0m5 [36mnbSecret=[0m1
+[90m12:21:10[0m [32mINF[0m building constraint builder [36mnbConstraints=[0m6497
+[90m12:21:10[0m [33mDBG[0m constraint system solver done [36mbackend=[0mgroth16 [36mnbConstraints=[0m6497 [36mtook=[0m2.5145
+[90m12:21:10[0m [33mDBG[0m prover done [36mbackend=[0mgroth16 [36mcurve=[0mbn254 [36mnbConstraints=[0m6497 [36mtook=[0m44.662375
+[Editor/Prover] Successfully converted digital signature to PCD proof (Identity transformation).
+[90m12:21:10[0m [33mDBG[0m verifier done [36mbackend=[0mgroth16 [36mcurve=[0mbn254 [36mtook=[0m1.127417
+[Verifier] Successfully verified PCD proof.

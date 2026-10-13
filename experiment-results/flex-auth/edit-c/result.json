@@ -1,0 +1,16 @@
+{
+  "output_height": 360,
+  "output_width": 450,
+  "prepare_ms": 5902.348,
+  "proof_bytes": 128,
+  "prove_ms": 1714.591,
+  "source_commitment": "079bf04eed50759143b7f8d5b7ece0cbf85b674d237b1cb867c5db2414e3f87c",
+  "transform": {
+    "x": 270,
+    "y": 270,
+    "width": 450,
+    "height": 360,
+    "quarter_turns": 2
+  },
+  "verify_from_files_ms": 13.694
+}

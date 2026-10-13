@@ -1,2 +1,17 @@
+# System and local tools
+.DS_Store
 **/lib
+.local/
+runs/
 
+# Generated proof / parameter files (regenerate with scripts/reproduce.sh)
+experiment-results/**/*.bin
+
+# Private editor inputs; never publish source openings or source hash lists
+**/source-opening.bin
+experiment-results/flex-auth/editor-data.json
+
+# Local binaries and profiles
+*.test
+*.prof
+coverage.out

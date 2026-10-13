@@ -1,0 +1,8 @@
+[90m13:15:19[0m [32mINF[0m compiling circuit
+[90m13:15:19[0m [32mINF[0m parsed circuit inputs [36mnbPublic=[0m306 [36mnbSecret=[0m288
+[90m13:15:20[0m [32mINF[0m building constraint builder [36mnbConstraints=[0m146232
+[90m13:15:25[0m [33mDBG[0m constraint system solver done [36mbackend=[0mgroth16 [36mnbConstraints=[0m146232 [36mtook=[0m734.789292
+[90m13:15:26[0m [33mDBG[0m prover done [36mbackend=[0mgroth16 [36mcurve=[0mbn254 [36mnbConstraints=[0m146232 [36mtook=[0m848.345625
+[90m13:15:26[0m [33mDBG[0m verifier done [36mbackend=[0mgroth16 [36mcurve=[0mbn254 [36mtook=[0m1.326625
+[90m13:15:26[0m [33mDBG[0m verifier done [36mbackend=[0mgroth16 [36mcurve=[0mbn254 [36mtook=[0m1.300542
+EDIT ACCEPTED size=720x720 rotation=180 proof_bytes=128 prove_ms=1608.030 verify_ms=30.982

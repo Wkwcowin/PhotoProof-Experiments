@@ -1,0 +1,70 @@
+=== RUN   TestRealPhotoOriginalVerifier
+    real_photo_test.go:27: set PHOTOPROOF_INPUT to run the real-photo experiment
+--- SKIP: TestRealPhotoOriginalVerifier (0.00s)
+PASS
+ok  	photoproof	0.415s
+?   	photoproof/cmd/cropdemo	[no test files]
+=== RUN   TestRealImageBundles
+    integration_test.go:40: edit-a accepted=true expected=true
+    integration_test.go:40: edit-b accepted=true expected=true
+    integration_test.go:40: edit-c accepted=true expected=true
+    integration_test.go:40: one_pixel_changed accepted=false expected=false
+    integration_test.go:40: red_square_added accepted=false expected=false
+    integration_test.go:40: substituted_image accepted=false expected=false
+    integration_test.go:40: modified_crop_coordinates accepted=false expected=false
+    integration_test.go:40: modified_rotation accepted=false expected=false
+    integration_test.go:40: tampered_prior_edit accepted=false expected=false
+    integration_test.go:40: public_files_only accepted=true expected=true
+    integration_test.go:40: truncated_proof accepted=false expected=false
+--- PASS: TestRealImageBundles (0.62s)
+PASS
+ok  	photoproof/cmd/photoedit	1.578s
+=== RUN   TestCropAuthentication
+=== RUN   TestCropAuthentication/one_changed_pixel
+=== RUN   TestCropAuthentication/wrong_crop_region
+=== RUN   TestCropAuthentication/wrong_dimensions
+=== RUN   TestCropAuthentication/cannot_generate_proof_for_edited_pixels
+=== RUN   TestCropAuthentication/changed_policy
+=== RUN   TestCropAuthentication/different_signer
+=== RUN   TestCropAuthentication/different_signed_source
+=== RUN   TestCropAuthentication/malformed_signature
+=== RUN   TestCropAuthentication/transparent_pixels
+--- PASS: TestCropAuthentication (2.23s)
+    --- PASS: TestCropAuthentication/one_changed_pixel (0.00s)
+    --- PASS: TestCropAuthentication/wrong_crop_region (0.00s)
+    --- PASS: TestCropAuthentication/wrong_dimensions (0.00s)
+    --- PASS: TestCropAuthentication/cannot_generate_proof_for_edited_pixels (0.00s)
+    --- PASS: TestCropAuthentication/changed_policy (0.00s)
+    --- PASS: TestCropAuthentication/different_signer (0.00s)
+    --- PASS: TestCropAuthentication/different_signed_source (0.01s)
+    --- PASS: TestCropAuthentication/malformed_signature (0.00s)
+    --- PASS: TestCropAuthentication/transparent_pixels (0.00s)
+PASS
+ok  	photoproof/cropauth	2.913s
+=== RUN   TestEditorSelectedTransforms
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/invalid_rotation
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/nonzero_padding
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/unsigned_source
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/changed_signed_policy
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/negative_x
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/outside_x
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/zero_width
+=== RUN   TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/oversized_crop
+--- PASS: TestEditorSelectedTransforms (2.74s)
+    --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses (0.02s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/invalid_rotation (0.00s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/nonzero_padding (0.00s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/unsigned_source (0.01s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/changed_signed_policy (0.00s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/negative_x (0.00s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/outside_x (0.00s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/zero_width (0.00s)
+        --- PASS: TestEditorSelectedTransforms/circuit_rejects_adversarial_witnesses/oversized_crop (0.00s)
+=== RUN   TestComposeAllQuarterTurns
+--- PASS: TestComposeAllQuarterTurns (0.00s)
+=== RUN   TestSignedRestrictions
+--- PASS: TestSignedRestrictions (1.03s)
+PASS
+ok  	photoproof/flexauth	4.999s
+?   	photoproof/image	[no test files]

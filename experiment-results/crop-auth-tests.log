@@ -1,0 +1,29 @@
+=== RUN   TestRealPhotoOriginalVerifier
+    real_photo_test.go:27: set PHOTOPROOF_INPUT to run the real-photo experiment
+--- SKIP: TestRealPhotoOriginalVerifier (0.00s)
+PASS
+ok  	photoproof	0.487s
+?   	photoproof/cmd/cropdemo	[no test files]
+=== RUN   TestCropAuthentication
+=== RUN   TestCropAuthentication/one_changed_pixel
+=== RUN   TestCropAuthentication/wrong_crop_region
+=== RUN   TestCropAuthentication/wrong_dimensions
+=== RUN   TestCropAuthentication/cannot_generate_proof_for_edited_pixels
+=== RUN   TestCropAuthentication/changed_policy
+=== RUN   TestCropAuthentication/different_signer
+=== RUN   TestCropAuthentication/different_signed_source
+=== RUN   TestCropAuthentication/malformed_signature
+=== RUN   TestCropAuthentication/transparent_pixels
+--- PASS: TestCropAuthentication (1.12s)
+    --- PASS: TestCropAuthentication/one_changed_pixel (0.00s)
+    --- PASS: TestCropAuthentication/wrong_crop_region (0.00s)
+    --- PASS: TestCropAuthentication/wrong_dimensions (0.00s)
+    --- PASS: TestCropAuthentication/cannot_generate_proof_for_edited_pixels (0.00s)
+    --- PASS: TestCropAuthentication/changed_policy (0.00s)
+    --- PASS: TestCropAuthentication/different_signer (0.00s)
+    --- PASS: TestCropAuthentication/different_signed_source (0.01s)
+    --- PASS: TestCropAuthentication/malformed_signature (0.00s)
+    --- PASS: TestCropAuthentication/transparent_pixels (0.00s)
+PASS
+ok  	photoproof/cropauth	1.344s
+?   	photoproof/image	[no test files]

@@ -1,0 +1,14 @@
+{
+  "compile_and_setup_ms": 14569.476,
+  "constraints": 146232,
+  "policy": {
+    "source_width": 1440,
+    "source_height": 810,
+    "tile_size": 90,
+    "allow_crop": true,
+    "allow_quarter_turns": true
+  },
+  "source_commitment": "079bf04eed50759143b7f8d5b7ece0cbf85b674d237b1cb867c5db2414e3f87c",
+  "source_file_sha256": "1e9049cc2bae527d1b4b990e4312e0a0189eb2547162924fa8cf64aed2f94f58",
+  "source_hash_and_sign_ms": 29.467
+}

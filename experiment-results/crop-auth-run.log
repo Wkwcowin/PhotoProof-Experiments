@@ -1,0 +1,16 @@
+[90m12:56:29[0m [32mINF[0m compiling circuit
+[90m12:56:29[0m [32mINF[0m parsed circuit inputs [36mnbPublic=[0m159 [36mnbSecret=[0m288
+[90m12:56:30[0m [32mINF[0m building constraint builder [36mnbConstraints=[0m141813
+SETUP constraints=141813 compile_and_setup_ms=14182.547
+[90m12:56:44[0m [33mDBG[0m constraint system solver done [36mbackend=[0mgroth16 [36mnbConstraints=[0m141813 [36mtook=[0m903.702542
+[90m12:56:45[0m [33mDBG[0m prover done [36mbackend=[0mgroth16 [36mcurve=[0mbn254 [36mnbConstraints=[0m141813 [36mtook=[0m845.9885
+PROVE total_prove_ms=1790.098 proof_bytes=128
+[90m12:56:45[0m [33mDBG[0m verifier done [36mbackend=[0mgroth16 [36mcurve=[0mbn254 [36mtook=[0m1.315375
+RESULT name=authorized_crop accepted=true expected=true verify_ms=26.976
+RESULT name=one_pixel_changed accepted=false expected=false verify_ms=25.777
+RESULT name=red_square_added accepted=false expected=false verify_ms=25.733
+RESULT name=wrong_crop_region accepted=false expected=false verify_ms=23.279
+RESULT name=original_wrong_dimensions accepted=false expected=false verify_ms=10.115
+[90m12:56:45[0m [1m[31mERR[0m[0m [36merror=[0m[31m"unsatisfied constraint"[0m [36mbackend=[0mgroth16 [36mid=[0m135172 [36mnbConstraints=[0m141813
+RESULT name=prove_changed_pixels accepted=false expected=false
+ALL CHECKS MATCH EXPECTATIONS
